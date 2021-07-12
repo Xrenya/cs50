@@ -30,11 +30,11 @@ int main(void)
     }
     if ((even_summator + odd_summator) % 10 == 0)
     {
-        printf("VISA");
+        printf("VISA\n");
     }
     else
     {
-        printf("INVALID");
+        printf("INVALID\n");
     }
 
     return 0;
