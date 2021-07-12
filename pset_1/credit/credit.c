@@ -31,7 +31,7 @@ int main(void)
         position++;
     }
     position -= 1;
-    two_digit = last_digit * 10 + previous_digit % 10;
+    two_digit = last_digit * 10 + previous_digit;
     if ((even_summator + odd_summator) % 10 == 0)
     {
         if (position >= 13 && position <= 16 && last_digit == 4)
